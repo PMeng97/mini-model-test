@@ -1,5 +1,4 @@
 import uuid
-# from diffusers import StableDiffusionPipeline
 import torch
 import jax
 import jax.numpy as jnp

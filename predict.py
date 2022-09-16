@@ -20,9 +20,6 @@ from tqdm.notebook import trange
 
 
 def txt2img(prompt):
-    # RUN THE TWO COMMANDS BELOW FIRST TO CACHE
-    # git lfs install
-    # git clone https://huggingface.co/CompVis/stable-diffusion-v1-4
     prompt = prompt.replace('+', ' ')
     print(prompt)
     prompts = [prompt]
